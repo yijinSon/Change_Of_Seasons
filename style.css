@@ -34,6 +34,22 @@ body {
   top : 1040px;
 }
 
+a {
+  color : #555555;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info {
+  position : fixed;
+  font-weight: bold;
+  line-height: 10px;
+  font-size: 12px;
+  font-family: "Nanum Gothic", sans-serif;
+  top : 1180px;
+  left: 30px;
+}
+
 canvas {
   position: relative;
   margin : 0px;
