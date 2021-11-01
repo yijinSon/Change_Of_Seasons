@@ -23,10 +23,10 @@ body {
 }
 
 .detail {
-  padding-left: 60px;
+  /* padding-left: 60px; */
   line-height: 15px;
   position: relative;
-  text-align: justify;
+  text-align: center;
   font-family: "Nanum Gothic", sans-serif;
 
   font-size: 14px;
