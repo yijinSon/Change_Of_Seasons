@@ -1,7 +1,41 @@
-html, body {
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo&display=swap&subset=korean');
+
+html{
   margin: 0;
   padding: 0;
+  background-color: #d0d0d0;
 }
+
+body {
+  background-color: #e5e5e5;
+  width : 600px;
+  margin : auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 59px;
+}
+
+#Title {
+  width : 600px;
+  margin : 0px;
+  text-align: center;
+}
+
+.detail {
+  padding-left: 60px;
+  line-height: 15px;
+  position: relative;
+  text-align: justify;
+  font-family: "Nanum Gothic", sans-serif;
+
+  font-size: 14px;
+  width : 600px;
+  top : 1040px;
+}
+
 canvas {
-  display: block;
+  position: relative;
+  margin : 0px;
+  top : -120px;
 }

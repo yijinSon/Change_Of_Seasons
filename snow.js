@@ -4,7 +4,7 @@ class Snow{
     this.pos = createVector(random(width),-50);
     this.vel = createVector(0,0);
     this.acc = createVector(0,random(0.03,0.08));
-    this.size = random (4,6);
+    this.size = random (2,6);
     this.groundCheck = false;
     this.alpha = 0;
   }
